@@ -15,11 +15,11 @@ public class VideoController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        
+
         panel.SetActive(false);
-        
+
     }
-    
+
 
     public void Replay()
     {
