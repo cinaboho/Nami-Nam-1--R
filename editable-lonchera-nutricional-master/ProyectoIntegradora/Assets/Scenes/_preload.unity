@@ -2085,6 +2085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   netService: 1
+  creditsScreenCaller: 
 --- !u!114 &1277416765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2099,7 +2100,7 @@ MonoBehaviour:
   tipo: jugador
   avatar: 
   nombre_jugador: 
-  nombre_juego: En mi Entorno Natural
+  nombre_juego: "\xD1ami \xD1am 1"
 --- !u!114 &1277416766
 MonoBehaviour:
   m_ObjectHideFlags: 0

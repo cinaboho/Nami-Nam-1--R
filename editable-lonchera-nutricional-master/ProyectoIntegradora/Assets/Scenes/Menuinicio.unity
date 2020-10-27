@@ -457,7 +457,7 @@ RectTransform:
   m_GameObject: {fileID: 174550022}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.5726}
-  m_LocalScale: {x: 1.284404, y: 3.270151, z: 1.284405}
+  m_LocalScale: {x: 0.8446819, y: 3.065757, z: 1.284405}
   m_Children:
   - {fileID: 2005165330}
   m_Father: {fileID: 1343798823}
@@ -465,8 +465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -59}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 16.6, y: -79}
+  m_SizeDelta: {x: 199.3, y: 40.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &174550024
 MonoBehaviour:
@@ -539,7 +539,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: db6fe2a048e34a34d9bd1a95944891a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9eded5af6a27b6c49b78551a525cf223, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1532,7 +1532,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1615, y: 0}
+  m_AnchoredPosition: {x: 1696, y: 0}
   m_SizeDelta: {x: 279, y: 61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1007137595
@@ -1856,7 +1856,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1203852686}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: -155.43, z: 5.8194}
+  m_LocalPosition: {x: -236, y: -140, z: 5.8194}
   m_LocalScale: {x: 41.512764, y: 41.51278, z: 41.51278}
   m_Children: []
   m_Father: {fileID: 1343798823}
@@ -2741,7 +2741,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00008392334, y: -0.0000076293945}
+  m_AnchoredPosition: {x: 30, y: -0.0000076293945}
   m_SizeDelta: {x: -0.000076294, y: 0.000015259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1818437478
