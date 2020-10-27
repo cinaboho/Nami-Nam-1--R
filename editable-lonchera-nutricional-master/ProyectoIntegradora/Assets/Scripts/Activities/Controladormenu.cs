@@ -18,8 +18,7 @@ public class Controladormenu : MonoBehaviour {
         registro.clicJugar++;
         audioClicr.Play();
         // bandera.tempNombre = "Juego";
-        StartCoroutine(Transicion("Character"));
-        StartCoroutine(Transicion("Cargaconsejo"));
+        StartCoroutine(Transicion("Introduccion"));
        // SceneManager.LoadScene("Cargaconsejo");
     }
 
@@ -76,22 +75,8 @@ public class Controladormenu : MonoBehaviour {
           
             SceneManager.LoadScene(scene);
         }*/
-
-        if (scene == "Creditos")
-        {
-            SceneManager.LoadScene(scene);
-        }
-
-        else if (scene == "Character")
-        {
-            SceneManager.LoadScene(scene);
-        }
-
-        /**/
-        else if (scene == "Video")
-        {
-            SceneManager.LoadScene(scene);
-        }
+        SceneManager.LoadScene(scene);
+        
     }
 
     IEnumerator cargarEscena()

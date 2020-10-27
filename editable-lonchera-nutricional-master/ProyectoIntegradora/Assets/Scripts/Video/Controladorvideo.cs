@@ -9,6 +9,8 @@ public class Controladorvideo : MonoBehaviour {
 
     public AudioSource audioClic;
     public VideoPlayer video;
+    public GameObject bttPlay;
+    public GameObject bttStop;
     // Use this for initialization
     void Start () {
         StartCoroutine(cargarEscena());
@@ -29,10 +31,30 @@ public class Controladorvideo : MonoBehaviour {
     public void Playvideo()
     {
         audioClic.Play();
+        video.Play();
+        bttPlay.SetActive(false);
+        bttStop.SetActive(true);
+    }
+
+    public void StopVideo()
+    {
+        audioClic.Play();
+        video.Pause();
+        bttStop.SetActive(false);
+        bttPlay.SetActive(true);
+    }
+
+    public void NextScene(string scene)
+    {
+        StartCoroutine(Transicion(scene));
+    }
+
+    public void RestartVideo()
+    {
+        audioClic.Play();
         video.Stop();
         video.Play();
         StartCoroutine(cargarEscena());
-
     }
 
     IEnumerator Transicion(string scene)
